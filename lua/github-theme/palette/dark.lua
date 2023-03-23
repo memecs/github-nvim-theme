@@ -2,8 +2,9 @@ return function()
   ---@type gt.ColorPalette
   local palette = {
     -- Background Colors
-    bg = '#24292e',
-    bg2 = '#1f2428',
+    -- bg = '#24292e',
+    bg = '#161b1f',
+    bg2 = '#161b1f',
 
     -- Foreground Colors
     fg = '#c9d1d9',
@@ -25,10 +26,10 @@ return function()
     line_nr = '#444d56',
 
     -- LSP & Diagnostic Colors
-    error = '#f97583',
-    warning = '#cca700',
-    info = '#75beff',
-    hint = '#eeeeb3',
+    error = '#6a737d',
+    warning = '#6a737d',
+    info = '#6a737d',
+    hint = '#6a737d',
     lsp = { ref_txt = '#265459' },
 
     -- Auto-Complication Colors
@@ -57,10 +58,11 @@ return function()
       comment = '#6a737d',
       constant = '#79b8ff',
       string = '#9ecbff',
-      variable = '#79b8ff',
+      -- variable = '#79b8ff',
+      variable = '#d1d5da',
       keyword = '#f97583',
       func = '#b392f0',
-      func_param = '#e1e4e8',
+      func_param = '#d1d5da',
       match_paren_bg = '#25686c',
       tag = '#85e89d',
       html_arg = '#fdaeb7',
@@ -74,13 +76,13 @@ return function()
     bright_black = '#959da5',
     white = '#d1d5da',
     bright_white = '#fafbfc',
-    red = '#ea4a5a',
+    red = '#f97583',
     bright_red = '#f97583',
-    green = '#34d058',
+    green = '#d1d5da',
     bright_green = '#85e89d',
-    yellow = '#ffea7f',
+    yellow = '#ffab70',
     bright_yellow = '#ffea7f',
-    blue = '#2188ff',
+    blue = '#9ecbff',
     bright_blue = '#79b8ff',
     magenta = '#b392f0',
     bright_magenta = '#b392f0',
@@ -88,7 +90,7 @@ return function()
     bright_cyan = '#56d4dd',
 
     -- Plugin Colors
-    git_signs = { add = '#28a745', change = '#2188ff', delete = '#ea4a5a' },
+    git_signs = { add = '#85e89d', change = '#9ecbff', delete = '#f97583' },
   }
 
   return palette
